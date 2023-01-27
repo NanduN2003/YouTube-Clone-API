@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+body{
+    position: relative;
+    background: #f0f0f0;
+    font-family: 'roboto', sans-serif;
+}

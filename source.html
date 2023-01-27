@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YoutubeClone/API.com</title>
+        <!--    Styling the page by connecting CSS -->
+        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="navigation-bar.css">
+        <link rel="stylesheet" href="side-bar.css">
+        <link rel="stylesheet" href="filters.css">
+        <link rel="stylesheet" href="video.css">
+    </head>
+        <body>
+            <!--    Navigation-Bar/Header   -->
+            <nav class="nav-bar">
+                <div class="toggle-button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <img src="images/logo.PNG" class="logo" alt="">
+                <div class="search-box">
+                    <input type="text" class="search-bar" placeholder="search">
+                    <button class="search-button"><img src="images/search.PNG" alt=""></button>
+                    <button class="voice-search-button"><img src="images/voice-search-icon.svg" class="voice-search-icon" alt=""></button>
+                </div>
+                <div class="user-options">
+                    <img src="images/video.PNG" class="icon" alt="">
+                    <img src="images/grid.PNG" class="icon" alt="">
+                    <img src="images/bell.PNG" class="icon" alt="">
+                    <div class="user-profilepic">
+                        <img src="images/unnamed.jpg" alt="">
+                    </div>
+                </div>
+            </nav>
+            <!--    SIDEBAR         -->
+            <div class="side-bar">
+                <a href="#" class="links active"><img src="images/home.PNG" alt="">home</a>
+                <a href="#" class="links"><img src="images/explore.PNG" alt="">explore</a>
+                <a href="#" class="links"><img src="images/subscription.PNG" alt="">subscription</a>
+                <hr class="seperator">
+                <a href="#" class="links"><img src="images/library.PNG" alt="">library</a>
+                <a href="#" class="links"><img src="images/history.PNG" alt="">history</a>
+                <a href="#" class="links"><img src="images/your-video.PNG" alt="">your video</a>
+                <a href="#" class="links"><img src="images/watch-later.PNG" alt="">watch leater</a>
+                <a href="#" class="links"><img src="images/liked video.PNG" alt="">like video</a>
+                <a href="#" class="links"><img src="images/show more.PNG" alt="">show more</a>
+            </div>
+             <!--        Filters         -->
+            <div class="filters">
+                <button class="filter-options active">all</button>
+                <button class="filter-options">Omegle</button>
+                <button class="filter-options">Java</button>
+                <button class="filter-options">Music</button>
+                <button class="filter-options">HTML</button>
+                <button class="filter-options">CSS</button>
+                <button class="filter-options">javascript</button>
+                <button class="filter-options">artificial intelligence</button>
+                <button class="filter-options">machine learning</button>
+                <button class="filter-options">Python</button>
+            </div>
+
+
+            <div class="video-container">
+                <!--The structure for video content is attached to JAVASCRIPT api code-->
+            </div>
+
+            <script src="https://apis.google.com/js/api.js"></script>
+            <script src="app.js"></script>
+
+        </body>
+ </html>
