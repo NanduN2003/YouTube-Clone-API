@@ -22,7 +22,7 @@
 
 <h3>4.Purpose:-</h3>
 
-The purpose of creating this project is to gain experience in developing a dynamic web application using APIs, Javascript, and HTML/CSS. The project not only showcases the integration of different technologies but also demonstrates the potential of these technologies in creating a functional and visually appealing website.*
+*The purpose of creating this project is to gain experience in developing a dynamic web application using APIs, Javascript, and HTML/CSS. The project not only showcases the integration of different technologies but also demonstrates the potential of these technologies in creating a functional and visually appealing website.*
 
 <h3>5.Conclusion:-</h3>
 
